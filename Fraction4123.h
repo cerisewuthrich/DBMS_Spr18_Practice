@@ -42,6 +42,5 @@ public:
   //Destructor
   ~Fraction4123();
 
-  void fakeFunction();
 };
 
