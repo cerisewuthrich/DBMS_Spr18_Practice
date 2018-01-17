@@ -41,5 +41,7 @@ public:
   friend ostream & operator<<(ostream &out, Fraction4123 f);
   //Destructor
   ~Fraction4123();
+
+  void fakeFunction();
 };
 
