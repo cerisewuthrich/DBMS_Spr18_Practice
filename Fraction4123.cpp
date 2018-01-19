@@ -1,11 +1,11 @@
 #include "Fraction4123.h"
 
 //1.  Implement Default constructor
-//    Set num to 0 and den to 1
+//    Set num to 0 and den to 1 - Student Wuthrich
 Fraction4123::Fraction4123()
 {
-  
-
+  num = 0;
+  den = 1;
 }
 //2.  Imprement parameterized constructor
 //    Set num and den to values passed through parameters
