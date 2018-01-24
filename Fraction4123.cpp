@@ -8,9 +8,10 @@ Fraction4123::Fraction4123()
   den = 1;
 }
 //2.  Imprement parameterized constructor
-//    Set num and den to values passed through parameters
+//    Set num and den to values passed through parameters - Samuel Mullins
 Fraction4123::Fraction4123(int n, int d){
-  
+	num = n;
+	den = d;
 
 }
 
