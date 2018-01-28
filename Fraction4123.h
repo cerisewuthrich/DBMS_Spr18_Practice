@@ -18,8 +18,6 @@ public:
   //and denominator based on parameters passed in
   Fraction4123(int n, int d);
 
-  Fraction4123(const Fraction4123 & f);
-
   // Getters and setters
   int getNumerator();
   int getDenominator();
@@ -42,6 +40,7 @@ public:
 
   friend ostream & operator<<(ostream &out, Fraction4123 f);
   //Destructor
+  ~Fraction4123();
 
 };
 
