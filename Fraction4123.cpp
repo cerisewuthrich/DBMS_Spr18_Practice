@@ -10,9 +10,14 @@ Fraction4123::Fraction4123()
 //2.  Imprement parameterized constructor
 //    Set num and den to values passed through parameters - Samuel Mullins
 Fraction4123::Fraction4123(int n, int d){
+	int x;
 	num = n;
-	den = d;
-
+	if (d != 0)
+		den = d;
+	else{
+		cout << "denomenator cannot equal 0" << endl;
+		den = 1;
+	}
 }
 
 
