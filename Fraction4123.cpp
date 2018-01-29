@@ -50,8 +50,13 @@ void simplify();
 //Member functions that return the answer
 //through a return statement
 
-//7
-Fraction4123 add(Fraction4123);
+//7 Implement fraction addition - Clorissa Callender
+Fraction4123 add(Fraction4123 frac){
+	frac.num = (frac.num * den) + (num* frac.den);
+	frac.den = frac.den * den;
+	
+	return frac;
+}
 //8
 Fraction4123 subtract(Fraction4123);
 //9
