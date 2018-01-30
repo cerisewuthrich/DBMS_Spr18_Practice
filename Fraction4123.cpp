@@ -14,7 +14,7 @@ Fraction4123::Fraction4123(int n, int d){
 	if (d != 0)
 		den = d;
 	else{
-		cout << "denomenator cannot equal 0" << endl;
+		cout << "denominator cannot equal 0" << endl;
 		den = 1;
 	}
 }
@@ -45,31 +45,42 @@ void Fraction4123::setDenominator(int d){
 
 
 // 5.  Implement the gcd function recursively
-int gcd(int x, int y){
+int Fraction4123::gcd(int x, int y){
   return 1;
 }
 //6.  Implement function to simplify fraction
-void simplify();
+void Fraction4123::simplify() {
+
+}
 
 //Member functions that return the answer
 //through a return statement
 
-//7 Implement fraction addition - Clorissa Callender
-Fraction4123 add(Fraction4123 frac){
-	frac.num = (frac.num * den) + (num* frac.den);
-	frac.den = frac.den * den;
-	
-	return frac;
+//7 Implement fraction addition
+Fraction4123 Fraction4123::add(Fraction4123 frac){
+	Fraction4123 sum;
+	return sum;
 }
 //8
-Fraction4123 subtract(Fraction4123);
+Fraction4123 Fraction4123::subtract(Fraction4123) {
+	Fraction4123 diff;
+	return diff;
+}
 //9
-Fraction4123 multiply(Fraction4123);
+Fraction4123 Fraction4123::multiply(Fraction4123) {
+	Fraction4123 product;
+	return product;
+}
 //10
-Fraction4123 divide(Fraction4123);
+Fraction4123 Fraction4123::divide(Fraction4123) {
+	Fraction4123 quotient;
+	return quotient;
+}
 
 //11
-double toDecimal();
+double Fraction4123::toDecimal() {
+	return .75;
+}
 
 ostream & operator<<(ostream &out, Fraction4123 f){
   int whole = 1;
