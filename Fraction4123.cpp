@@ -47,10 +47,10 @@ void Fraction4123::setDenominator(int d){
 // 5.  Implement the gcd function recursively
 //     Implemented recursive Euclid's algorithm - Holden Hall
 int Fraction4123::gcd(int x, int y){
-	if y = 0
+	if (y = 0)
 		return x;
 	else
-		return gcd(y, x mod y);
+		return gcd(y, x % y);
 }
 //6.  Implement function to simplify fraction
 void Fraction4123::simplify() {
