@@ -59,6 +59,8 @@ void Fraction4123::simplify() {
 //7 Implement fraction addition
 Fraction4123 Fraction4123::add(Fraction4123 frac){
 	Fraction4123 sum;
+	sum.num = (frac.num * den) + (num * frac.den);
+	sum.den = frac.den * den;
 	return sum;
 }
 //8
