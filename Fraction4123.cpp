@@ -84,7 +84,7 @@ Fraction4123 Fraction4123::divide(Fraction4123) {
 
 //11
 double Fraction4123::toDecimal() {
-	return .75;
+	return double(num/den);
 }
 
 ostream & operator<<(ostream &out, Fraction4123 f){
