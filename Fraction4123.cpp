@@ -32,15 +32,18 @@ int Fraction4123::getNumerator(){
 int Fraction4123::getDenominator(){
   return den;
 }
-//4.  Implement both setters
+//4.  Implement both setters - Jesse Houk
 void Fraction4123::setNumerator(int n){
-	
-
+	num = n;
 }
 
 void Fraction4123::setDenominator(int d){
-	
-
+	if (d != 0)
+		den = 0;
+	else {
+		cout << "denominator cannot equal 0\n";
+		den = 1;
+	}
 }
 
 
