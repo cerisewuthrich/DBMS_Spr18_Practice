@@ -48,16 +48,17 @@ void Fraction4123::setDenominator(int d){
 
 
 // 5.  Implement the gcd function recursively
-int Fraction4123::gcd(int n, int d){
-	if (n%d == 0)
-		return n;
-	return gcd(n%d, n);
+int Fraction4123::gcd(int x, int y) {
+	return 1;
 }
-//6.  Implement function to simplify fraction
+//6.  Implement function to simplify fraction - Cory Press
 void Fraction4123::simplify() {
 	int GCD = gcd(num, den);
-	num /= GCD;
-	den /= GCD;
+	if (GCD == 0)
+		den = 1;
+	else {
+		num = num / GCD;
+		den = den / GCD;
 }
 
 //Member functions that return the answer
