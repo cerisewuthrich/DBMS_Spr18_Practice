@@ -4,14 +4,19 @@
 //    Set num to 0 and den to 1 - Student Wuthrich
 Fraction4123::Fraction4123()
 {
-  num = 0;
-  den = 1;
+	num = 0;
+	den = 1;
 }
 //2.  Imprement parameterized constructor
-//    Set num and den to values passed through parameters
+//    Set num and den to values passed through parameters - Samuel Mullins
 Fraction4123::Fraction4123(int n, int d){
-  
-
+	num = n;
+	if (d != 0)
+		den = d;
+	else{
+		cout << "denominator cannot equal 0" << endl;
+		den = 1;
+	}
 }
 
 
@@ -19,63 +24,93 @@ Fraction4123::~Fraction4123()
 {
 
 }
-//3.  Implement both accessor functions
+//3.  Implement both accessor functions - Keona Rollerson
 int Fraction4123::getNumerator(){
-  return 345;
+	return num;
 }
 
 int Fraction4123::getDenominator(){
-  return 345;
+	return den;
 }
-//4.  Implement both setters
+//4.  Implement both setters - Jesse Houk
 void Fraction4123::setNumerator(int n){
-
-
+	num = n;
 }
 
 void Fraction4123::setDenominator(int d){
-
-
+	if (d != 0)
+		den = 0;
+	else {
+		cout << "denominator cannot equal 0\n";
+		den = 1;
+	}
 }
 
 
 // 5.  Implement the gcd function recursively
-int gcd(int x, int y){
-  return 1;
+int Fraction4123::gcd(int x, int y){
+	return 1;
 }
 //6.  Implement function to simplify fraction
-void simplify();
+void Fraction4123::simplify() {
+
+}
 
 //Member functions that return the answer
 //through a return statement
 
-//7
-Fraction4123 add(Fraction4123);
+//7 Implement fraction addition
+Fraction4123 Fraction4123::add(Fraction4123 frac){
+	Fraction4123 sum;
+	sum.num = (frac.num * den) + (num * frac.den);
+	sum.den = frac.den * den;
+	return sum;
+}
 //8
-Fraction4123 subtract(Fraction4123);
+//Implemented subtract function - Jeron Amory
+Fraction4123 Fraction4123::subtract(Fraction4123 frac) {
+	Fraction4123 diff;
+	diff.num = (frac.num * den) - (num * frac.den);
+	diff.den = frac.den * den;
+	return diff;
+}
 //9
-Fraction4123 multiply(Fraction4123);
+//Implemented multiply function - Jeron Amory
+Fraction4123 Fraction4123::multiply(Fraction4123 frac) {
+	Fraction4123 product;
+	product.num = frac.num * num;
+	product.den = frac.den * den;
+	return product;
+}
 //10
-Fraction4123 divide(Fraction4123);
+//Implemented divide function - Jeron Amory
+Fraction4123 Fraction4123::divide(Fraction4123 frac) {
+	Fraction4123 quotient;
+	quotient.num = frac.num * den;
+	quotient.den = frac.den * num;
+	return quotient;
+}
 
 //11
-double toDecimal();
+double Fraction4123::toDecimal() {
+	return .75;
+}
 
 ostream & operator<<(ostream &out, Fraction4123 f){
-  int whole = 1;
- // f.simplify();
-  if (f.num < f.den){
-    if (f.num == 0)
-      out << 0;
-    else
-      out << f.getNumerator() << "/" << f.getDenominator();
-  }
-  else{
-    whole = f.num / f.den;
-    if (f.num % f.den == 0)
-      out << whole;
-    else
-      out << whole << " " << f.num % f.den << "/" << f.getDenominator();
-  }
-  return out;
+	int whole = 1;
+	// f.simplify();
+	if (f.num < f.den){
+		if (f.num == 0)
+			out << 0;
+		else
+			out << f.getNumerator() << "/" << f.getDenominator();
+	}
+	else{
+		whole = f.num / f.den;
+		if (f.num % f.den == 0)
+			out << whole;
+		else
+			out << whole << " " << f.num % f.den << "/" << f.getDenominator();
+	}
+	return out;
 }
