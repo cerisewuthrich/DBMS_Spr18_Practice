@@ -24,8 +24,8 @@ int main(){
 	Fraction4123 difference(0, 0);
 	Fraction4123 product(0, 0);
 	Fraction4123 quotient(0, 0);
-  //14.  Find the sum of f1 and f2 and cout the result.
-
+  //14.  Find the sum of f1 and f2 and cout the result. - Yani Muskwe
+	cout<<sum.add(f1, f2)<<endl;
   //15.  Find the difference of f2 and f3 and cout the result.
 
   //16.  Find the product of f3 and f4 and cout the result.

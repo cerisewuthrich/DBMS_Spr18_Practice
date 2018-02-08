@@ -76,11 +76,20 @@ void Fraction4123::simplify() {
 //Member functions that return the answer
 //through a return statement
 
-//7 Implement fraction addition
-Fraction4123 Fraction4123::add(Fraction4123 frac){
+//7 Implements fraction addition - Yani Muskwe
+Fraction4123 Fraction4123::add(Fraction4123 frac, Fraction4123 frac_2){
 	Fraction4123 sum;
-	sum.num = (frac.num * den) + (num * frac.den);
-	sum.den = frac.den * den;
+	if (frac.den != frac_2.den)//no common denominator
+	{
+		sum.num = (frac.num * frac_2.den) + (frac_2.num * frac.den);
+		sum.den = frac.den * den;
+	}
+	else
+	{
+		sum.den = frac.den;
+		sum.num = frac.num + frac_2.num;
+	}
+	
 	return sum;
 }
 //8
