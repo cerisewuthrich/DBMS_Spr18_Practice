@@ -47,11 +47,6 @@ void Fraction4123::setDenominator(int d){
 }
 
 
-// 5.  Implement the gcd function recursively
-<<<<<<< HEAD
-int Fraction4123::gcd(int x, int y) {
-	return 1;
-=======
 //     Implemented recursive Euclid's algorithm - Holden Hall
 // Example 8 and 12
 //x: 8
