@@ -30,7 +30,7 @@ public:
   //Member functions that return the answer
   //through a return statement
 
-  Fraction4123 add(Fraction4123);
+  Fraction4123 add(Fraction4123, Fraction4123);
   Fraction4123 subtract(Fraction4123);
   Fraction4123 multiply(Fraction4123);
   Fraction4123 divide(Fraction4123);
