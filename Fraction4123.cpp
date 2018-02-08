@@ -48,17 +48,34 @@ void Fraction4123::setDenominator(int d){
 
 
 // 5.  Implement the gcd function recursively
+<<<<<<< HEAD
 int Fraction4123::gcd(int x, int y) {
 	return 1;
+=======
+//     Implemented recursive Euclid's algorithm - Holden Hall
+// Example 8 and 12
+//x: 8
+//y: 12
+//x: 12
+//y: 8
+//x: 8
+//y: 4
+// return 4    
+int Fraction4123::gcd(int x, int y){
+	if (y == 0)
+		return x;
+	return gcd(y, x % y);
 }
 //6.  Implement function to simplify fraction - Cory Press
 void Fraction4123::simplify() {
 	int GCD = gcd(num, den);
-	if (GCD == 0)
+	if (GCD == 0) {
 		den = 1;
+	}
 	else {
 		num = num / GCD;
 		den = den / GCD;
+	}
 }
 
 //Member functions that return the answer
@@ -94,7 +111,7 @@ double Fraction4123::toDecimal() {
 
 ostream & operator<<(ostream &out, Fraction4123 f){
   int whole = 1;
- // f.simplify();
+  f.simplify();
   if (f.num < f.den){
     if (f.num == 0)
       out << 0;
