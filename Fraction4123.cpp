@@ -77,21 +77,33 @@ Fraction4123 Fraction4123::add(Fraction4123 frac){
 	sum.den = frac.den * den;
 	return sum;
 }
+
 //8
-Fraction4123 Fraction4123::subtract(Fraction4123) {
+//Implemented subtract function - Jeron Amory
+Fraction4123 Fraction4123::subtract(Fraction4123 frac) {
 	Fraction4123 diff;
+	diff.num = (frac.num * den) - (num * frac.den);
+	diff.den = frac.den * den;
 	return diff;
 }
 //9
-Fraction4123 Fraction4123::multiply(Fraction4123) {
+//Implemented multiply function - Jeron Amory
+Fraction4123 Fraction4123::multiply(Fraction4123 frac) {
 	Fraction4123 product;
+	product.num = frac.num * num;
+	product.den = frac.den * den;
 	return product;
 }
 //10
-Fraction4123 Fraction4123::divide(Fraction4123) {
+//Implemented divide function - Jeron Amory
+Fraction4123 Fraction4123::divide(Fraction4123 frac) {
 	Fraction4123 quotient;
+	quotient.num = frac.num * den;
+	quotient.den = frac.den * num;
 	return quotient;
 }
+
+
 
 //11
 double Fraction4123::toDecimal() {
