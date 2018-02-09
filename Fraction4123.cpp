@@ -99,9 +99,13 @@ Fraction4123 Fraction4123::divide(Fraction4123) {
 	return quotient;
 }
 
-//11
+//11 implemented toDecimal - Michael Lewis
+// casts numerator as float then devides by the denominator and stores
+// the result in the decim double.
 double Fraction4123::toDecimal() {
-	return .75;
+	double decim;
+	decim = static_cast <float> (num) / den;
+	return decim;
 }
 
 ostream & operator<<(ostream &out, Fraction4123 f){
