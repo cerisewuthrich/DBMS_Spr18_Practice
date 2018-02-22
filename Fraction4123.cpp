@@ -82,7 +82,7 @@ Fraction4123 Fraction4123::add(Fraction4123 frac){
 //Implemented subtract function - Jeron Amory
 Fraction4123 Fraction4123::subtract(Fraction4123 frac) {
 	Fraction4123 diff;
-	diff.num = (frac.num * den) - (num * frac.den);
+	diff.num = (frac.den * num) - (den * frac.num);
 	diff.den = frac.den * den;
 	return diff;
 }
@@ -98,8 +98,8 @@ Fraction4123 Fraction4123::multiply(Fraction4123 frac) {
 //Implemented divide function - Jeron Amory
 Fraction4123 Fraction4123::divide(Fraction4123 frac) {
 	Fraction4123 quotient;
-	quotient.num = frac.num * den;
-	quotient.den = frac.den * num;
+	quotient.num = frac.den * num;
+	quotient.den = frac.num * den;
 	return quotient;
 }
 
