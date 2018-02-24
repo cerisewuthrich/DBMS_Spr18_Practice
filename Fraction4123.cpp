@@ -1,4 +1,4 @@
-#include "Fraction4123.h"
+ #include "Fraction4123.h"
 
 //1.  Implement Default constructor
 //    Set num to 0 and den to 1 - Student Wuthrich
@@ -84,8 +84,11 @@ Fraction4123 Fraction4123::add(Fraction4123 frac){
 	return sum;
 }
 //8
-Fraction4123 Fraction4123::subtract(Fraction4123) {
+// Implemented subtract function - Vasudev Vijayaraman
+Fraction4123 Fraction4123::subtract(Fraction4123 frac) { 
 	Fraction4123 diff;
+	diff.num = (frac.den * num) - (den * frac.num);
+	diff.den = frac.den * den;
 	return diff;
 }
 //9
