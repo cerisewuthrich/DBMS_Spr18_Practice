@@ -27,7 +27,9 @@ int main(){
   //14.  Find the sum of f1 and f2 and cout the result. - Garrett Gulker
 	sum = f1.add(f2);
 	cout << sum << endl;
-  //15.  Find the difference of f2 and f3 and cout the result.
+  //15.  Find the difference of f2 and f3 and cout the result. - Vasudev Vijayaraman
+	difference = f2.subtract(f3);
+	cout << difference << endl;
 
   //16.  Find the product of f3 and f4 and cout the result.
 
