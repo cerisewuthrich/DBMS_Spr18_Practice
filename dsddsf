@@ -1,0 +1,243 @@
+[33mcommit e2554384ba2098147563c0b14627c8f293b9a9af[m[33m ([m[1;36mHEAD -> [m[1;32mmaster[m[33m)[m
+Author: Vasudev <vasudev.great@gmail.com>
+Date:   Sat Feb 24 15:23:35 2018 -0600
+
+    Subtracted f2 and f3
+
+[33mcommit 5a7c51a5eac5f2c4b33163a2fd1333c8da672a34[m[33m ([m[1;31mupstream/master[m[33m)[m
+Merge: 4a734fc 66ba14a
+Author: Cerise Wuthrich <cerise.wuthrich@mwsu.edu>
+Date:   Fri Feb 16 08:22:38 2018 -0600
+
+    Merge pull request #18 from ggulker/master
+    
+    Implemented 14 by adding f1 to f2
+
+[33mcommit 66ba14af109ad257272d5619c60fed219474b12d[m
+Author: Garrett Gulker <ceagentman17@gmail.com>
+Date:   Sun Feb 11 10:38:50 2018 -0600
+
+    Added f1 and f2
+
+[33mcommit 4a734fc0dd030dcd692a3edafe7336ea00301d9c[m
+Merge: 46fb239 ea6ffa1
+Author: Cerise Wuthrich <cerise.wuthrich@mwsu.edu>
+Date:   Fri Feb 9 11:26:53 2018 -0600
+
+    Merge pull request #17 from mlblewis/master
+    
+    Implemented 11. toDecimal function
+
+[33mcommit ea6ffa1ca8e24fd954539b8ce213355daf3a0345[m
+Author: mlblewis <downwiththtegame@yahoo.com>
+Date:   Thu Feb 8 17:32:37 2018 -0600
+
+    Implemented 11. toDecimal function
+
+[33mcommit 46fb239aef6d3c05185c7f7640c1b23f537444fe[m
+Merge: 7ddfc12 9612211
+Author: Cerise Wuthrich <cerise.wuthrich@mwsu.edu>
+Date:   Thu Feb 8 09:29:25 2018 -0600
+
+    Merge pull request #14 from CoryPress/master
+    
+    Implement Simplify Cory Press
+
+[33mcommit 9612211cc95620abf4f760b0bf85aad8041f2be1[m
+Author: CoryPress <cmpress0107@my.mwsu.edu>
+Date:   Wed Feb 7 18:58:29 2018 -0600
+
+    Implemented simplify method
+
+[33mcommit 607967fb3d60716bf67c4066579ed4f99c020e7d[m
+Merge: e65c10a 7ddfc12
+Author: CoryPress <cmpress0107@my.mwsu.edu>
+Date:   Wed Feb 7 18:50:17 2018 -0600
+
+    Implemented simplify method
+
+[33mcommit 7ddfc12ba46725468b05ef9d2fc65d8e60f7a66a[m
+Merge: fb27f6e 0bb4271
+Author: Cerise Wuthrich <cerise.wuthrich@mwsu.edu>
+Date:   Mon Feb 5 14:02:40 2018 -0600
+
+    Merge pull request #12 from ShadowShogun/master
+    
+    Implemented GCD Holden Hall
+
+[33mcommit 0bb427177a7a7310a33e79af828c8142c99edc71[m
+Author: holden <shadow8087@gmail.com>
+Date:   Mon Feb 5 01:21:13 2018 -0600
+
+    Implemented GCD Holden Hall
+
+[33mcommit e65c10a3adacbe954c5bd65956761e946ea4944a[m
+Author: CoryPress <cmpress0107@my.mwsu.edu>
+Date:   Sun Feb 4 22:45:05 2018 -0600
+
+    implemented simplify method
+
+[33mcommit 46575e58c30f6a3a09b718e1a450adee02321f7c[m
+Author: CoryPress <cmpress0107@my.mwsu.edu>
+Date:   Sun Feb 4 22:39:13 2018 -0600
+
+    Implemented simplify method
+
+[33mcommit fb27f6e905279af190a5ad3490d7c712e2aad226[m
+Merge: 21ace8e 359c1a3
+Author: Cerise Wuthrich <cerise.wuthrich@mwsu.edu>
+Date:   Fri Feb 2 08:59:13 2018 -0600
+
+    Merge pull request #10 from JesseHouk900/master
+    
+    Adding Setter Functions
+
+[33mcommit 359c1a3b6db8a439361d37454b27f21f7bc51858[m
+Author: Jesse Houk <jessejameshouk@gmail.com>
+Date:   Thu Feb 1 20:11:41 2018 -0600
+
+    Updating Repo and adding setters
+
+[33mcommit 21ace8ebfa71baf61223ca1c8695712c40a94bcf[m
+Merge: 0851a47 28e2f70
+Author: Cerise Wuthrich <cerise.wuthrich@mwsu.edu>
+Date:   Thu Feb 1 14:53:02 2018 -0600
+
+    Merge pull request #9 from Rissa-CSS/master
+    
+    Implemented the addition function for the Fraction class
+
+[33mcommit 0851a475194634de49c5f86f7f646bfb0d41150b[m
+Merge: 58bef99 889e3e1
+Author: Cerise Wuthrich <cerise.wuthrich@mwsu.edu>
+Date:   Thu Feb 1 14:51:54 2018 -0600
+
+    Merge pull request #8 from EditSokotsu/master
+    
+    instantiated fraction objects
+
+[33mcommit 28e2f70f1127cd232ffb966351ba5279082e2394[m
+Author: Rissa-CSS <ccallender1996@gmail.com>
+Date:   Thu Feb 1 14:56:27 2018 -0400
+
+    Implemented the addition function for the Fraction class
+
+[33mcommit 889e3e1857b4fb2dd8979901cceb653e035e7466[m
+Author: unknown <BO119LabStudent@BO119-LAB-0008.labs.msu>
+Date:   Thu Feb 1 11:56:44 2018 -0600
+
+    instantiated fraction objects
+
+[33mcommit 58bef9904c952214f88b188e6d2e6c058a8a5961[m
+Author: Cerise Teacher <cerise.wuthrich@mwsu.edu>
+Date:   Tue Jan 30 10:20:36 2018 -0600
+
+    Added scope resolution operator, removed add
+
+[33mcommit f43223505513f50d248425fd13af74386ad7d692[m
+Merge: 251e7d1 60942ef
+Author: Cerise Wuthrich <cerise.wuthrich@mwsu.edu>
+Date:   Tue Jan 30 09:47:22 2018 -0600
+
+    Merge pull request #5 from ssmullins/master
+    
+    Fixed Parameterized Construcor
+
+[33mcommit 251e7d16e045c921dc62a9a4ea4e58dcbd81c93b[m
+Author: Rissa-CSS <ccallender1996@gmail.com>
+Date:   Mon Jan 29 19:22:10 2018 -0400
+
+    #7 Implement fraction addition function
+
+[33mcommit 60942ef71cae97f955d4261c75c9d519f0651e14[m
+Author: Samuel Mullins <samuel.s.mullins@gmail.com>
+Date:   Mon Jan 29 14:36:25 2018 -0600
+
+    Removed int x from parameterized constructor because i wasnt using it
+
+[33mcommit 11f392c33e9f8bb5f16fc41e4b086ea0ff70d8b4[m
+Author: Samuel Mullins <samuel.s.mullins@gmail.com>
+Date:   Mon Jan 29 14:32:12 2018 -0600
+
+    Fixed parameterized constructor to check for 0 in denomenator
+
+[33mcommit c8e127b4342b6a6be4d6643a15902f92fb2fc166[m
+Merge: 8bbd8ec 0607e99
+Author: Cerise Wuthrich <cerise.wuthrich@mwsu.edu>
+Date:   Fri Jan 26 08:17:25 2018 -0600
+
+    Merge pull request #3 from Kegoma11/master
+    
+    Implemented Accessor functions
+
+[33mcommit 8bbd8ec4f298a47611986a29e24f0fa6a453433e[m
+Merge: e221995 688e2f4
+Author: Cerise Wuthrich <cerise.wuthrich@mwsu.edu>
+Date:   Fri Jan 26 08:15:40 2018 -0600
+
+    Merge pull request #2 from ssmullins/master
+    
+    Implemented Parameterized Constructor
+
+[33mcommit 0607e996bbc11d4ad69c59452810177ad9551ef2[m
+Author: Keona Rollerson <keonarollerson@gmail.com>
+Date:   Thu Jan 25 22:53:11 2018 -0600
+
+    Implemented Accessor functions
+
+[33mcommit e221995cb79211edda372ccf855a470711d69a3d[m
+Author: Cerise <cerise.wuthrich@mwsu.edu>
+Date:   Wed Jan 24 13:59:36 2018 -0600
+
+    Added image directory to wiki
+
+[33mcommit 688e2f41bb6e04faca06ede0cc08f35eecfdbdb9[m
+Author: Samuel Mullins <samuel.s.mullins@gmail.com>
+Date:   Wed Jan 24 13:44:30 2018 -0600
+
+    Implemented Parameterized Constructor
+
+[33mcommit 11591254446caa1a806969736e7dacee705948fa[m
+Author: Cerise Wuthrich <cerise.wuthrich@mwsu.edu>
+Date:   Mon Jan 22 11:13:47 2018 -0600
+
+    Update README.md
+
+[33mcommit 40827452b894b908764d17c1490a036cb9e62f9a[m[33m ([m[1;31morigin/master[m[33m, [m[1;31morigin/HEAD[m[33m)[m
+Merge: 6d5a1da 558f87a
+Author: Cerise Wuthrich <cerise.wuthrich@mwsu.edu>
+Date:   Fri Jan 19 16:48:53 2018 -0600
+
+    Merge pull request #1 from studentWuthrich/master
+    
+    Implemented default constructor
+
+[33mcommit 558f87aed852307351ed13cf170905163b98fb69[m
+Author: studentWuthrich <cerise.wuthrich@yahoo.com>
+Date:   Fri Jan 19 16:28:46 2018 -0600
+
+    Implemented default constructor
+
+[33mcommit 6d5a1da1e6eab51bd34a247dd6baa9ad081cb501[m
+Author: Cerise <cerise.wuthrich@mwsu.edu>
+Date:   Wed Jan 17 16:31:20 2018 -0600
+
+    Removed fakeFunction
+
+[33mcommit 9f19a1e7577030f94d31599b574a9a909aa406ca[m
+Author: Cerise <cerise.wuthrich@mwsu.edu>
+Date:   Wed Jan 17 16:16:08 2018 -0600
+
+    fakeFunction added to .h file
+
+[33mcommit c9c696555a8af7e8e117b67a22f4f03daa0d22ba[m
+Author: Cerise Wuthrich <cerise.wuthrich@mwsu.edu>
+Date:   Wed Jan 17 15:36:57 2018 -0600
+
+    Uploaded original files
+
+[33mcommit 5f102d2a2ab3802d3faa6f9b39482106ff75c6a0[m
+Author: Cerise Wuthrich <cerise.wuthrich@mwsu.edu>
+Date:   Wed Jan 17 15:35:18 2018 -0600
+
+    Initial commit
