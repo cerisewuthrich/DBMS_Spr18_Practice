@@ -29,7 +29,7 @@ int main(){
 	cout << sum << endl;
   //15.  Find the difference of f2 and f3 and cout the result. - Vasudev Vijayaraman
 	difference = f2.subtract(f3);
-	cout << difference << endl;
+	cout << "Subtraction resulted in " << difference << endl;
 
   //16.  Find the product of f3 and f4 and cout the result.
 
