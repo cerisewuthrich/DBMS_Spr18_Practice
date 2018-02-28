@@ -76,7 +76,7 @@ void Fraction4123::simplify() {
 //Member functions that return the answer
 //through a return statement
 
-//7 Implement fraction addition
+//7 Implement fraction addition 
 Fraction4123 Fraction4123::add(Fraction4123 frac){
 	Fraction4123 sum;
 	sum.num = (frac.num * den) + (num * frac.den);
@@ -88,9 +88,11 @@ Fraction4123 Fraction4123::subtract(Fraction4123) {
 	Fraction4123 diff;
 	return diff;
 }
-//9
-Fraction4123 Fraction4123::multiply(Fraction4123) {
+//9 Implement fraction product - Luong Dinh 
+Fraction4123 Fraction4123::multiply(Fraction4123 frac) {
 	Fraction4123 product;
+	product.num = num * frac.num;
+	product.den = den * frac.den;
 	return product;
 }
 //10
